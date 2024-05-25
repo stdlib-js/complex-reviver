@@ -38,8 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-number": "^0.2.1",
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/complex-float64": "^0.2.1"
+    "@stdlib/complex-float32-ctor": "github:stdlib-js/complex-float32-ctor#main",
+    "@stdlib/complex-float64-ctor": "github:stdlib-js/complex-float64-ctor#main"
   },
   "devDependencies": {
     "@stdlib/utils-copy": "^0.2.1",

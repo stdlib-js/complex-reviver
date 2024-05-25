@@ -109,7 +109,7 @@ For details on the JSON serialization format, see [`Complex128`][@stdlib/complex
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Complex128 = require( '@stdlib/complex-float64' );
+var Complex128 = require( '@stdlib/complex-float64-ctor' );
 var parseJSON = require( '@stdlib/utils-parse-json' );
 var reviveComplex = require( '@stdlib/complex-reviver' );
 
@@ -154,7 +154,7 @@ bool = ( w.im === z.im );
 -   <span class="package-name">[`@stdlib/complex-float64`][@stdlib/complex/float64]</span><span class="delimiter">: </span><span class="description">128-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-float32`][@stdlib/complex/float32]</span><span class="delimiter">: </span><span class="description">64-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-reviver-float64`][@stdlib/complex/reviver-float64]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 128-bit complex number.</span>
--   <span class="package-name">[`@stdlib/complex-reviver-float32`][@stdlib/complex/reviver-float32]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 64-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/complex-float32/reviver`][@stdlib/complex/float32/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 64-bit complex number.</span>
 
 </section>
 
@@ -240,7 +240,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/complex/reviver-float64]: https://github.com/stdlib-js/complex-reviver-float64
 
-[@stdlib/complex/reviver-float32]: https://github.com/stdlib-js/complex-reviver-float32
+[@stdlib/complex/float32/reviver]: https://github.com/stdlib-js/complex-float32-reviver
 
 <!-- </related-links> -->
 
