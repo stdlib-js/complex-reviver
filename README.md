@@ -86,7 +86,7 @@ var z = parseJSON( str, reviveComplex );
 // returns <Complex128>
 ```
 
-For details on the JSON serialization format, see [`Complex128`][@stdlib/complex/float64].
+For details on the JSON serialization format, see [`Complex128`][@stdlib/complex/float64/ctor].
 
 </section>
 
@@ -151,8 +151,8 @@ bool = ( w.im === z.im );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/complex-float64`][@stdlib/complex/float64]</span><span class="delimiter">: </span><span class="description">128-bit complex number.</span>
--   <span class="package-name">[`@stdlib/complex-float32`][@stdlib/complex/float32]</span><span class="delimiter">: </span><span class="description">64-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/complex-float64/ctor`][@stdlib/complex/float64/ctor]</span><span class="delimiter">: </span><span class="description">128-bit complex number.</span>
+-   <span class="package-name">[`@stdlib/complex-float32/ctor`][@stdlib/complex/float32/ctor]</span><span class="delimiter">: </span><span class="description">64-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-float64/reviver`][@stdlib/complex/float64/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 128-bit complex number.</span>
 -   <span class="package-name">[`@stdlib/complex-float32/reviver`][@stdlib/complex/float32/reviver]</span><span class="delimiter">: </span><span class="description">revive a JSON-serialized 64-bit complex number.</span>
 
@@ -232,11 +232,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-reviver/main/LICENSE
 
-[@stdlib/complex/float64]: https://github.com/stdlib-js/complex-float64
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor
 
 <!-- <related-links> -->
 
-[@stdlib/complex/float32]: https://github.com/stdlib-js/complex-float32
+[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32-ctor
 
 [@stdlib/complex/float64/reviver]: https://github.com/stdlib-js/complex-float64-reviver
 
