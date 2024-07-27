@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-reviver",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Revive a JSON-serialized complex number.",
   "license": "Apache-2.0",
   "author": {
@@ -37,13 +37,13 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-is-number": "^0.2.1",
-    "@stdlib/complex-float32-ctor": "github:stdlib-js/complex-float32-ctor#main",
-    "@stdlib/complex-float64-ctor": "github:stdlib-js/complex-float64-ctor#main"
+    "@stdlib/assert-is-number": "^0.2.2",
+    "@stdlib/complex-float32-ctor": "^0.0.1",
+    "@stdlib/complex-float64-ctor": "^0.0.1"
   },
   "devDependencies": {
     "@stdlib/utils-copy": "^0.2.1",
-    "@stdlib/utils-parse-json": "^0.2.1",
+    "@stdlib/utils-parse-json": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
