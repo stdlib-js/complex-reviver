@@ -45,32 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/complex-reviver
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
--   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var reviveComplex = require( '@stdlib/complex-reviver' );
+import reviveComplex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-reviver@deno/mod.js';
 ```
 
 #### reviveComplex( key, value )
@@ -78,7 +60,7 @@ var reviveComplex = require( '@stdlib/complex-reviver' );
 Revives a JSON-serialized `complex` number.
 
 ```javascript
-var parseJSON = require( '@stdlib/utils-parse-json' );
+import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
 
 var str = '{"type":"Complex128","re":5,"im":3}';
 
@@ -109,9 +91,9 @@ For details on the JSON serialization format, see [`Complex128`][@stdlib/complex
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var Complex128 = require( '@stdlib/complex-float64-ctor' );
-var parseJSON = require( '@stdlib/utils-parse-json' );
-var reviveComplex = require( '@stdlib/complex-reviver' );
+import Complex128 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float64-ctor@deno/mod.js';
+import parseJSON from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-parse-json@deno/mod.js';
+import reviveComplex from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-reviver@deno/mod.js';
 
 var z = new Complex128( 5.0, 3.0 );
 var str = JSON.stringify( z );
@@ -169,7 +151,7 @@ bool = ( w.im === z.im );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -232,15 +214,15 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/complex-reviver/main/LICENSE
 
-[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor
+[@stdlib/complex/float64/ctor]: https://github.com/stdlib-js/complex-float64-ctor/tree/deno
 
 <!-- <related-links> -->
 
-[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32-ctor
+[@stdlib/complex/float32/ctor]: https://github.com/stdlib-js/complex-float32-ctor/tree/deno
 
-[@stdlib/complex/float64/reviver]: https://github.com/stdlib-js/complex-float64-reviver
+[@stdlib/complex/float64/reviver]: https://github.com/stdlib-js/complex-float64-reviver/tree/deno
 
-[@stdlib/complex/float32/reviver]: https://github.com/stdlib-js/complex-float32-reviver
+[@stdlib/complex/float32/reviver]: https://github.com/stdlib-js/complex-float32-reviver/tree/deno
 
 <!-- </related-links> -->
 
